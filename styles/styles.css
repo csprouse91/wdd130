@@ -20,3 +20,28 @@ img {
 p {
     padding: 10px;
 }
+main {
+    max-width: 800px;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: lightblue;
+    color: #333;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+p {
+    padding: 0;
+}
+footer {
+    margin-top: 20px;
+    border-top: 1px solid green;
+    text-align: center;
+}
