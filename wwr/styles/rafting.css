@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-color:var(--accent1-color);
+    font-family: 'Raleway', 'Arial', sans-serif;
+    
+}
+
+p {
+    color:#127475;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+/* Class Selectors */
+/* Colors */
+:root {
+    --primary-color: #282852;
+    --secondary-color: #B7D5F6;
+    --accent1-color: #F02D3A;
+    --accent2-color: #127475;
+    /* Ref: https://coolors.co/palette/282852-b7d5f6-f02d3a-127475 */
+}
