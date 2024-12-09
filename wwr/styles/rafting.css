@@ -27,8 +27,29 @@ p {
     font-family: 'Roboto', 'Arial', sans-serif;
 }
 
-
+div {
+    position: relative;
+    h1 {
+        position: absolute;
+       top: 50px;
+       left: 50px;
+    }
+    article {
+        position: absolute;
+        top: 40px;
+        left: 60px;       
+    }
+    article img {
+        float: right;
+    }
+}
 /* Class Selectors */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* Colors */
 :root {
     --primary-color: #282852;
