@@ -25,22 +25,32 @@ h2 {
 p {
     color: var(--primary-color);
     font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: .8rem;
 }
 
 div {
     position: relative;
     h1 {
         position: absolute;
-       top: 50px;
+       top: 10px;
        left: 50px;
     }
     article {
         position: absolute;
-        top: 40px;
-        left: 60px;       
+        top: 60px;
+        left: 60px;   
+        background-color: rgba(183, 213, 246, 0.5);
+           
     }
     article img {
+        padding: 1rem;
+        max-width: 35%;
+        height: auto;       
         float: right;
+    }
+    article p {
+        padding: 1rem;
+        
     }
 }
 /* Class Selectors */
