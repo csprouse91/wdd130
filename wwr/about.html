@@ -15,56 +15,92 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-        <img src="images/rapidslogo.jpg" alt="The Rapids" width="100">
+    <header class="logobox">
+        <img src="images/rapidslogo.jpg" alt="logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-            
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>                
+            </ul>
         </nav>   
     </header>
     <main>
         <div class="hero">
-            <img src="images/mainhero.jpg" alt="Rafting the Rapids" width="200">
+            <img src="images/heroimage.jpg" alt="hero image">
             <h1>The Rapids</h1>
             <article>
-                <img src="images/happyclient1.jpg" alt="Happy Client">
+                <img src="images/happyclient1.jpg" alt="happyclient1">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam. 
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, ipsam.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nostrum.</p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nostrum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, corrupti. Accusamus, adipisci vitae autem aspernatur quam placeat iusto maiores iste.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis soluta eius fugit pariatur culpa. Adipisci, numquam! Voluptatum delectus ab labore.
+                </p>
             </article>
         </div>
-        <section>
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Impedit perferendis cupiditate alias cum rem, dolor dolorem tenetur voluptates quasi illo.
-            </p>
+        <section class="history">
+            <div class="history-container">
+                <h2>History</h2>
+                <div class="history-items">
+                    <div class="history-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Impedit perferendis cupiditate alias cum rem, dolor dolorem tenetur voluptates quasi illo.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo at, natus quia dignissimos excepturi consequatur incidunt rem quisquam iusto cum.
+                        </p>
+                    </div>
+                    <div class="history-item history-image">
+                        <img class="historyimage" src="images/raftinghistory.jpg" alt="Rafting History">
+                    </div>
+                    <div class="history-item">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Impedit perferendis cupiditate alias cum rem, dolor dolorem tenetur voluptates quasi illo.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatum facere sed? Quod nesciunt obcaecati ut? Fugiat excepturi quas asperiores.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
+        <section class="adventure">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting1.jpg" alt="Rafting Photo" width="200">
-            <img src="images/rafting2.jpg" alt="Rafting Photo" width="200">
-            <img src="images/rafting3.jpg" alt="Rafting Photo" width="200">
-            <img src="images/rafting4.jpg" alt="Rafting Photo" width="200">
-            <img src="images/rafting5.jpg" alt="Rafting Photo" width="200">
+            <figure>
+                <img src="images/rafting1.jpg" alt="Clearwater Halfday">
+                <figcaption>Clearwater Halfday</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting2.jpg" alt="Mother Rapids">
+                <figcaption>Mother Rapids</figcaption>
+            </figure>
+            <figure>    
+                <img src="images/rafting3.jpg" alt="Waterfall Swimming Hole">
+                <figcaption>Waterfall Swimming Hole</figcaption>
+            </figure>
+            <figure> 
+                <img src="images/rafting4.jpg" alt="Green River">
+                <figcaption>Green River</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting5.jpg" alt="Clearwater Full Day">
+                <figcaption>Clearwater Full Day</figcaption>
+            </figure>
         </section>
     </main>
     <footer>
         <p>&copy;2024 The Rapids Casey Sprouse</p>
-        <nav class="sociallinks">
-            <a href="https://www.facebook.com" target="_blank">Facebook
+        <div class="sociallinks">
+            <a href="https://facebook.com" target="_blank">Facebook
                 <img src="images/facebook.svg" alt="Facebook Logo">
             </a>
-            <a href="https://www.twitter.com" target="_blank">Twitter
+            <a href="https://twitter.com" target="_blank">Twitter
                 <img src="images/twitter_x.svg" alt="Twitter X Logo">
             </a>
-            <a href="https://www.instagram.com" target="_blank">Instagram
+            <a href="https://instagram.com" target="_blank">Instagram
                 <img src="images/instagram.svg" alt="Instagram Logo">
             </a>       
-        </nav>
+        </div>
     </footer> 
 </body>
 </html>
