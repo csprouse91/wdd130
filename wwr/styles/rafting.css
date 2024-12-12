@@ -44,12 +44,12 @@ nav {
 }
 .navigation a {
     display: block;
-    color:#F02D3A;
+    color: var(--accent1-color);
     padding: 10px;
     text-decoration: none;
 }
 .navigation a:hover {
-    color:#127475;
+    color: var(--accent2-color);
     font-weight: 700;
     text-decoration: underline;
 }
@@ -120,7 +120,7 @@ p {
 .history-item {
     flex: 1 1 auto;
     padding: 10px;
-    background-color: var(--accent1-color); 
+    background-color: var(--secondary-color); 
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -158,12 +158,13 @@ footer {
     place-items: center;
     align-items: center;
     margin: 90px 0px 0px 0px;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
 }
 
 footer p {
     grid-column: 2/3;
     font-size: 12px;
+    color: var(--accent1-color);
 }
 
 .sociallinks {
@@ -186,9 +187,9 @@ footer p {
 
 /* Colors */
 :root {
-    --primary-color: #282852;
+    --primary-color: #24247d;
     --secondary-color: #B7D5F6;
-    --accent1-color: #F02D3A;
+    --accent1-color: #fefcfc;
     --accent2-color: #127475;
     /* Ref: https://coolors.co/palette/282852-b7d5f6-f02d3a-127475 */
 }
