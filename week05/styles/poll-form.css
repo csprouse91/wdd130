@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    background-color: #fff;
+}
+header {
+    background-color:rgb(28, 178, 178);
+    margin: 0 auto;
+    width: 700px;
+}
+h1 {
+
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1rem;
+}
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .1); */
+    background-color: #eee;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    gap: .5rem;
+    border: 1px solid rgb(0 0 0 / .2);
+    margin: 1rem;
+    padding: 1rem;
+}
+fieldset legend {
+    font-size: 1.2em;
+    font-weight: bold; 
+}
+label, input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1em;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: bottom;
+}
+button {
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(28, 178, 178);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(0, 128, 128);
+}
+footer {
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: center;
+    padding: 1rem;
+    font-size: .8rem;
+    color: #666;
+    border-top: 1px solid rgb(0 0 0);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem 0;
+}
