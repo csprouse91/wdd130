@@ -34,17 +34,17 @@
             <p>Feel free to leave us feedback! We are here to help!</p>
         </div>
         <div class="employees">
-            <figure class="employee column1">
+            <figure class="employee">
                 <img src="images/employee1.jpg" alt="Employee 1">
                 <h3>John Doe</h3>
                 <figcaption>Owner</figcaption>
             </figure>
-            <figure class="employee column2">
+            <figure class="employee">
                 <img src="images/employee2.jpg" alt="Employee 2">
                 <h3>Jane Doe</h3>
                 <figcaption>Manager</figcaption>
             </figure>
-            <figure class="employee column3">
+            <figure class="employee">
                 <img src="images/employee3.jpg" alt="Employee 3">
                 <h3>Jim Doe</h3>
                 <figcaption>Guide</figcaption>
@@ -57,27 +57,28 @@
                 <p>Whitewater, CO 12345</p>
                 <p>Phone: (123)456-7890</p>
                 <p>Email: therapidsco@live.com</p>
+            </div>
             <div class="companyinfo map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14752.852994707851!2d-108.46158422674391!3d38.98324539242419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734395075971!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-        <div class="form-container">
-            <form>
+        <div class="contactform-container">
+            <form class="contactform">
                 <h2>Send Us a Message</h2>
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <div class="form-item column2">
+                    <div class="contactform-item column2">
                         <label for="fullname">Full Name:</label>
                         <input type="text" id="fullname" name="fullname" required>
                     </div>
-                    <div class="form-item column2">
+                    <div class="contactform-item column2">
                         <label for="useremail">Email:</label>
                         <input type="email" id="useremail" name="useremail" required>
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend>The Message</legend>
-                    <div class="form-item column1">
+                    <div class="contactform-item column1">
                         <label for="purpose">Please select the purpose of your message:</label>
                         <input type="radio" id="purpose" name="purpose" value="general" required>General Inquiry
                         <input type="radio" id="purpose" name="purpose" value="reservation" required>Reservation Question
@@ -85,7 +86,7 @@
                     </div>
                     <label for="message"></label>
                     <textarea id="message" name="message" rows="5" placeholder="Please enter your message here."></textarea>
-                    <div class="form-item">
+                    <div class="contactform-item">
                         <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
                         <input type="checkbox" id="newsletter" name="newsletter">
                     </div>

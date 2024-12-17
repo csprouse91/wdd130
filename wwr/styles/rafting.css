@@ -155,7 +155,6 @@ p {
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
     align-items: center;
     margin: 90px 0px 0px 0px;
     background-color: var(--primary-color);
@@ -164,6 +163,7 @@ footer {
 footer p {
     grid-column: 2/3;
     font-size: 12px;
+    text-align: center;
     color: var(--accent1-color);
 }
 
@@ -188,8 +188,143 @@ footer p {
 .contactwireframe {
     display: flex;
     grid-column: 1/2;
-    justify-content: left;    
+    justify-content: left;
+    padding: 5px;
+    margin: 10px;
 }
+                                                /* Contact Page */
+.contacthero {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    width: 100%;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    margin: 20 0 0 0;
+}
+.contacthero h1 {
+    color: var(--accent1-color);
+}
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+.employee figure {
+    width: 100%;
+    text-align: center;
+}
+.employee img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/* Company Info */
+.companyinfo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.companyinfo {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+    padding: 20px;
+    background-color: var(--accent1-color);
+    text-align: center;
+    justify-content: center;
+}
+.companyinfo h2 {
+    color: var(--accent2-color);
+    padding: 20px;
+}
+.companyinfo p {
+    font-size: 1.2rem;
+}
+.map {
+    display: flex;
+    grid-column: 2/3;
+    padding: 20px;
+    background-color: var(--accent1-color);
+    justify-content: flex-end;
+}
+/* Contact Form */
+.contactform-container {
+    display: grid;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid var(--primary-color);
+}
+.contactform h2 {
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+}
+.contactform fieldset {
+    display: grid;
+    gap: .5rem;
+    border: 1px solid rgb(0 0 0 / .2);
+    margin: 1rem;
+    padding: 1rem;
+}
+.contactform fieldset legend {
+    font-size: 1.5em;
+    font-weight: bold; 
+}
+.contactform label, input, button, textarea {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: italic;
+    font-size: 1em;
+}
+.contactform label {
+    text-align: right;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+.contactform input, textarea {
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+.contactform input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: bottom;
+    justify-self: right;
+}
+.contactform button {
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(28, 178, 178);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    align-self: center;
+    width: 100%
+}
+.contactform button:hover {
+    background-color: rgb(0, 128, 128);
+}
+.contactform-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    justify-content: left;
+}
+/* .column2 {
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 0;
+} */
+
+
 /* Colors */
 :root {
     --primary-color: #24247d;
