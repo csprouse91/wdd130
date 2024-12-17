@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Rapids Contacts Page">
+    <title>The Rapids Contacts</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="logobox">
+        <img src="images/rapidslogo.jpg" alt="logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>                
+            </ul>
+        </nav>   
+    </header>
+    <main>
+        <div class="contacthero">
+            <h1>Reach Our Team</h1>
+            <p>Feel free to leave us feedback! We are here to help!</p>
+        </div>
+        <div class="employees">
+            <figure class="employee column1">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <h3>John Doe</h3>
+                <figcaption>Owner</figcaption>
+            </figure>
+            <figure class="employee column2">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <h3>Jane Doe</h3>
+                <figcaption>Manager</figcaption>
+            </figure>
+            <figure class="employee column3">
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <h3>Jim Doe</h3>
+                <figcaption>Guide</figcaption>
+            </figure>
+        </div>
+        <section class="companyinfo-container">
+            <div class="companyinfo">
+                <h2>Company Information</h2>
+                <p>1234 Rapids Rafting Way</p>
+                <p>Whitewater, CO 12345</p>
+                <p>Phone: (123)456-7890</p>
+                <p>Email: therapidsco@live.com</p>
+            <div class="companyinfo map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14752.852994707851!2d-108.46158422674391!3d38.98324539242419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734395075971!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <div class="form-container">
+            <form>
+                <h2>Send Us a Message</h2>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>The Message</legend>
+                    <div class="form-item column1">
+                        <label for="purpose">Please select the purpose of your message:</label>
+                        <input type="radio" id="purpose" name="purpose" value="general" required>General Inquiry
+                        <input type="radio" id="purpose" name="purpose" value="reservation" required>Reservation Question
+                        <input type="radio" id="purpose" name="purpose" value="feedback" required>Website Suggestion
+                    </div>
+                    <label for="message"></label>
+                    <textarea id="message" name="message" rows="5" placeholder="Please enter your message here."></textarea>
+                    <div class="form-item">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+                </fieldset>
+                <button type="submit">Send Message</button>
+            </form>
+        
+    </main>
+    <footer>
+        <div class="contactwireframe">
+            <a href="https://app.moqups.com/rUYkGP86Rg4qNmourEl737DFvJraHnDs/view/page/ad12de680" target="_blank">
+                <img src="images/wireframesvg.svg" alt="Wireframe Logo">
+            </a>
+
+        </div>
+        <p>&copy;2024 The Rapids Casey Sprouse</p>
+        <div class="sociallinks">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook Logo">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter_x.svg" alt="Twitter X Logo">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram Logo">
+            </a>       
+        </div>
+    </footer> 
+</body>
+</html>
