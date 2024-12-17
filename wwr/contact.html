@@ -79,10 +79,13 @@
                 <fieldset>
                     <legend>The Message</legend>
                     <div class="contactform-item column1">
-                        <label for="purpose">Please select the purpose of your message:</label>
-                        <input type="radio" id="purpose" name="purpose" value="general" required>General Inquiry
-                        <input type="radio" id="purpose" name="purpose" value="reservation" required>Reservation Question
-                        <input type="radio" id="purpose" name="purpose" value="feedback" required>Website Suggestion
+                        <p>Please select the purpose of your message:<p>
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="reservation" name="purpose" value="reservation" required>
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="feedback" name="purpose" value="feedback" required>
+                        <label for="feedback">Website Feedback</label>
                     </div>
                     <label for="message"></label>
                     <textarea id="message" name="message" rows="5" placeholder="Please enter your message here."></textarea>

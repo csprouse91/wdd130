@@ -199,7 +199,7 @@ footer p {
     text-align: center;
     width: 100%;
     font-family: 'Raleway', 'Arial', sans-serif;
-    margin: 20 0 0 0;
+    margin: 20px;
 }
 .contacthero h1 {
     color: var(--accent1-color);
@@ -278,7 +278,7 @@ footer p {
     font-size: 1.5em;
     font-weight: bold; 
 }
-.contactform label, input, button, textarea {
+.contactform label, input, button, textarea, p {
     font-family: Roboto, Arial, sans-serif;
     font-style: italic;
     font-size: 1em;
@@ -297,6 +297,13 @@ footer p {
     height: 1.5rem;
     vertical-align: bottom;
     justify-self: right;
+}
+.contactform input[type="radio"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    justify-self: right;
+    vertical-align: bottom;
+    
 }
 .contactform button {
     padding: .5rem 1rem;
@@ -318,6 +325,7 @@ footer p {
 }
 .column1 {
     justify-content: left;
+
 }
 /* .column2 {
     grid-template-columns: 1fr 1fr;
